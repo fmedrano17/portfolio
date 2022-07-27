@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cat Age Calculator</title>
+</head>
+<body>
+    <h1>Cat Age Calculator</h1>
+
+    <div class="info">
+        <img src="https://images.pexels.com/photos/1815484/pexels-photo-1815484.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+        <p>Find out how old your cat is in human years.</p>
+        <p>This program takes your cats age and turns it into human years by using an incredibly complex algorithm.</p>
+    </div>
+
+    <div class="box">
+        <br>
+        <p>Please enter your cats name and age below.</p>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+        <br><br>
+        <input type="submit" class="btn" id="submit" value="Calculate Age">
+        <input type="submit" class="btn" id="chart" value="See Age Chart">
+        <br><br>
+        <div id="result"></div>
+        <br>
+    </div>
+
+    <br>
+
+    <p class="info">Disclaimer: There is no scientific/official way of translating cat years into human years. This program is merely for enteretainment purposes and uses the currently accepted method of adding 4 years, each year, after the age of 2 years. You can read more about this method on <a href="https://www.purina.co.uk/articles/cats/senior/care/cats-age-in-human-years">Purina's website</a> and the <a href="https://icatcare.org/advice/how-to-tell-your-cats-age-in-human-years/">International Cat Care website</a>.</p>
+
+    <script src="app.js"></script>    
+</body>
+</html>
