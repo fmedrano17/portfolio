@@ -1,0 +1,103 @@
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+body {
+	font-family: sans-serif;
+	min-width: 414px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #232323;
+	color: white;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 10px;
+}
+
+.column img {
+	width: 100%;
+	padding: 15px;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	columns: white;
+}
+
+.nav {
+	list-style: none;
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav li {
+	display: inline;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 auto;
+	justify-content: center;
+	background-color: #eeeeee;
+	border-top: 1px solid #c8c8c8;
+}
+
+#description {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+#header {
+	padding: 10px;
+	background-color: #5a5a5a;
+	width: 100%;
+}
+
+#header h1 {
+	color: white;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#header img {
+	float: left;
+	padding-right: 10px;
+}
+
+#hero1 {
+	width: 414px;
+	height: 200px;
+}
+
+#logo {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}

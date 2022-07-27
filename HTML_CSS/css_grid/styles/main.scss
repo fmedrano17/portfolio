@@ -1,0 +1,25 @@
+@import './vendor/normalize';
+@import './partials/base';
+
+// Class assignment code below this line
+
+.page-wrapper {
+    display: grid;
+    grid-template-rows: 70px 1fr auto 50px;
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.featured-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.feature-one {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
